@@ -2,7 +2,7 @@
 
 
 ###To Do
-* ~Github~
+* ~~Github~~
 * Express Framework
 * Basic Layout
 * Different Tabs for pages
