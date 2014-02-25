@@ -10,13 +10,13 @@ head
     title Cover Template for TODC Bootstrap
     //
        Bootstrap core CSS 
-    link(href='../../dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
     //
        TODC Bootstrap core CSS 
-    link(href='../../dist/css/todc-bootstrap.min.css', rel='stylesheet')
+    link(href='/stylesheets/todc-bootstrap.min.css', rel='stylesheet')
     //
        Custom styles for this template 
-    link(href='cover.css', rel='stylesheet')
+    link(href='/stylesheets/cover.css', rel='stylesheet')
     //
        Just for debugging purposes. Don't actually copy this line! 
     //if lt IE 9
@@ -46,19 +46,12 @@ head
               | Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
             p.lead
               a.btn.btn-lg.btn-default(href='#') Learn more
-          .mastfoot
-            .inner
-              p
-                | Cover template for
-                a(href='http://getbootstrap.com') Bootstrap
-                | , by
-                a(href='https://twitter.com/mdo') @mdo
-                | .
+          
     //
        Bootstrap core JavaScript
           ================================================== 
     //
        Placed at the end of the document so the pages load faster 
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-    script(src='../../dist/js/bootstrap.min.js')
-    script(src='../../assets/js/docs.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/docs.min.js')
