@@ -14,3 +14,7 @@ exports.bootstrap = function(req, res){
 exports.test = function(req,res){
 	res.render('test', {title: "Hello World"});
 };
+
+exports.old = function(req,res){
+	res.render('old', {title: "Old layout.jade"});
+};

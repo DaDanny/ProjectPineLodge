@@ -1,7 +1,60 @@
 doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+html(lang='en')
+head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon', href='../../assets/ico/favicon.ico')
+    title The Society of Les Voyageurs
+    //
+       Bootstrap core CSS 
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
+    //
+       TODC Bootstrap core CSS 
+    link(href='/stylesheets/todc-bootstrap.min.css', rel='stylesheet')
+    //
+       Custom styles for this template 
+    link(href='/stylesheets/cover.css', rel='stylesheet')
+    //
+       Just for debugging purposes. Don't actually copy this line! 
+    //if lt IE 9
+      script(src='../../assets/js/ie8-responsive-file-warning.js')
+    //
+       HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries 
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
   body
-    block content
+    .site-wrapper
+      .site-wrapper-inner
+        .cover-container
+          .masthead.clearfix
+            .inner
+              ul.nav.masthead-nav
+                li.active
+                  a(href='index') Home
+                li
+                  a(href='About') About
+                li
+                  a(href='#') Actives
+                li
+                  a(href='#') Adventures
+                li
+                  a(href='#') Chat
+          .inner.cover
+            h1.cover-heading The Society of Les Voyageurs.
+            p.lead
+              | One of the oldest university outdoor societies in the United States, the Society of Les Voyageurs is a co-ed student organization, welcoming friends and guests to share their love for the great outdoors.
+            p.lead
+              a.btn.btn-lg.btn-default(href='About') Learn more
+          
+    //
+       Bootstrap core JavaScript
+          ================================================== 
+    //
+       Placed at the end of the document so the pages load faster 
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/docs.min.js')
